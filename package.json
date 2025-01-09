@@ -5,7 +5,8 @@
     "webpack": "^5.97.1"
   },
   "scripts": {
-    "build:css": " tailwindcss -i ./src/index.css -o ./dist/tailwind.css --watch"
+    "build:css": " tailwindcss -i ./src/index.css -o ./dist/tailwind.css ",
+    "build": "webpack"
   },
   "dependencies": {
     "@babel/preset-env": "^7.26.0",
