@@ -5,7 +5,7 @@
     "webpack": "^5.97.1"
   },
   "scripts": {
-    "build:css": "tailwindcss -i ./src/index.css -o ./public/tailwind.css",
+    "build:css": "tailwindcss -i ./public/index.css -o ./public/tailwind.css",
     "build": "webpack"
   },
   "dependencies": {
