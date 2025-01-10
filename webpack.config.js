@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js', // Arquivo de entrada
   output: {
-    path: path.resolve(__dirname, 'dist'), // Pasta de saída
-    filename: 'bundle.js', // Nome do arquivo de saída
+    path: path.resolve(__dirname, 'public'), // Pasta de saída
+    filename: 'index.js', // Nome do arquivo de saída
   },
   mode: 'production',
   module: {
