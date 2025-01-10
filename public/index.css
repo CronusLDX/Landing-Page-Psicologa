@@ -26,3 +26,9 @@ body {
 .border-to-radius {
   border-top-left-radius: 40%;
 }
+
+@media (max-width: 768px) {
+  .hidden-on-small {
+    display: none;
+  }
+}
