@@ -5,7 +5,7 @@
     "webpack": "^5.97.1"
   },
   "scripts": {
-    "build:css": " tailwindcss -i ./src/index.css -o ./dist/tailwind.css ",
+    "build:css": " tailwindcss -i ./src/index.css -o ./dist/tailwind.css --minify",
     "build": "webpack"
   },
   "dependencies": {
